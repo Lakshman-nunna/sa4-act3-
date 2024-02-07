@@ -24,4 +24,9 @@ else:
         if cap == 0:
             print(f"The number is {number}")
             break
+            if int(guess) > number:
+                print("You guessed too high")
+            if int(guess) < number:
+                print("You guessed too low")
+
 
