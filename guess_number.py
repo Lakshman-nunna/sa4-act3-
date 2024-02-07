@@ -18,4 +18,9 @@ else:
             break
         if int(guess) != number:
             print("No you guessed wrong, try again")
+            if int(guess) > number:
+                print("You guessed too high")
+            if int(guess) < number:
+                print("You guessed too low")
+
 
